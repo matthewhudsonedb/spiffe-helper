@@ -1,4 +1,4 @@
-module github.com/spiffe/spiffe-helper
+module github.com/matthewhudsonedb/spiffe-helper
 
 go 1.23.3
 

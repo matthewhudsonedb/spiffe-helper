@@ -14,10 +14,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/matthewhudsonedb/spiffe-helper/pkg/disk"
 	"github.com/spiffe/go-spiffe/v2/bundle/jwtbundle"
 	"github.com/spiffe/go-spiffe/v2/svid/jwtsvid"
 	"github.com/spiffe/go-spiffe/v2/workloadapi"
-	"github.com/spiffe/spiffe-helper/pkg/disk"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

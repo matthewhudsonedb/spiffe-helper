@@ -11,9 +11,9 @@ import (
 
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hcl/hcl/token"
+	"github.com/matthewhudsonedb/spiffe-helper/pkg/health"
+	"github.com/matthewhudsonedb/spiffe-helper/pkg/sidecar"
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/spiffe-helper/pkg/health"
-	"github.com/spiffe/spiffe-helper/pkg/sidecar"
 )
 
 const (

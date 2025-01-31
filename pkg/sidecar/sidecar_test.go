@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/matthewhudsonedb/spiffe-helper/test/spiffetest"
+	"github.com/matthewhudsonedb/spiffe-helper/test/util"
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/spiffe/go-spiffe/v2/bundle/x509bundle"
 	"github.com/spiffe/go-spiffe/v2/spiffeid"
 	"github.com/spiffe/go-spiffe/v2/svid/x509svid"
 	"github.com/spiffe/go-spiffe/v2/workloadapi"
-	"github.com/spiffe/spiffe-helper/test/spiffetest"
-	"github.com/spiffe/spiffe-helper/test/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

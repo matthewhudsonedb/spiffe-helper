@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{build_number}%{?dist}
 Summary: Utility for fetching X.509 SVID certificates from the SPIFFE Workload API
 License: Apache License 2.0
-URL:     https://github.com/spiffe/spiffe-helper
+URL:     https://github.com/matthewhudsonedb/spiffe-helper
 Vendor:  SPIFFE
 Source:  spiffe-helper.tar.gz
 

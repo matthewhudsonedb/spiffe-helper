@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/matthewhudsonedb/spiffe-helper/pkg/sidecar"
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/spiffe-helper/pkg/sidecar"
 )
 
 type CheckConfig struct {

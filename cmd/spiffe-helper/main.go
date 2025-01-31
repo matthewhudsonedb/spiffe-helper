@@ -7,10 +7,10 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/matthewhudsonedb/spiffe-helper/cmd/spiffe-helper/config"
+	"github.com/matthewhudsonedb/spiffe-helper/pkg/health"
+	"github.com/matthewhudsonedb/spiffe-helper/pkg/sidecar"
 	"github.com/sirupsen/logrus"
-	"github.com/spiffe/spiffe-helper/cmd/spiffe-helper/config"
-	"github.com/spiffe/spiffe-helper/pkg/health"
-	"github.com/spiffe/spiffe-helper/pkg/sidecar"
 )
 
 const (
